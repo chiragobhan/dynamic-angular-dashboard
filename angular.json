@@ -3,7 +3,7 @@
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
-    "pillway-dashboard": {
+    "dynamic-angular-dashboard": {
       "projectType": "application",
       "schematics": {
         "@schematics/angular:component": {
@@ -17,7 +17,7 @@
         "build": {
           "builder": "@angular-devkit/build-angular:application",
           "options": {
-            "outputPath": "dist/pillway-dashboard",
+            "outputPath": "dist/dynamic-angular-dashboard",
             "index": "src/index.html",
             "browser": "src/main.ts",
             "polyfills": [
@@ -65,10 +65,10 @@
           "builder": "@angular-devkit/build-angular:dev-server",
           "configurations": {
             "production": {
-              "buildTarget": "pillway-dashboard:build:production"
+              "buildTarget": "dynamic-angular-dashboard:build:production"
             },
             "development": {
-              "buildTarget": "pillway-dashboard:build:development"
+              "buildTarget": "dynamic-angular-dashboard:build:development"
             }
           },
           "defaultConfiguration": "development"
