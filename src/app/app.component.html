@@ -1,0 +1,12 @@
+<mat-toolbar>
+  <img src="https://cdn.prod.website-files.com/61654a1f375b80b5f4e0e599/61654a20375b801a7be0e615_logo.svg" loading="lazy" alt="Pillway logo">
+  <span class="spacer"></span>
+  <button *ngIf="isLoggedIn" (click)="logout()" mat-icon-button class="icon logout-icon">
+    <mat-icon>logout</mat-icon>
+  </button>
+  <button (click)="toggleDarkMode()" mat-icon-button class="icon light-dark-icon">
+    <mat-icon>{{ isDarkMode ? 'light_mode' : 'dark_mode' }}</mat-icon>
+  </button>
+</mat-toolbar>
+
+<router-outlet></router-outlet>

@@ -1,0 +1,21 @@
+<img src="https://cdn.prod.website-files.com/61654a1f375b80b5f4e0e599/61654a20375b80f6d5e0e657_illustr_contact.png" loading="eager" class="bgImg">
+<div class="login-app">
+<mat-card class="login-container">
+  <h2>Login</h2>
+    <form (ngSubmit)="login()">
+      <mat-form-field appearance="outline">
+        <mat-label>Username</mat-label>
+        <input matInput type="text" [(ngModel)]="credentials.username" name="username" required />
+      </mat-form-field>
+  
+      <mat-form-field appearance="outline">
+        <mat-label>Password</mat-label>
+        <input matInput type="password" [(ngModel)]="credentials.password" name="password" required />
+      </mat-form-field>
+  
+      <button mat-raised-button color="primary" type="submit">Login</button>
+    </form>
+  
+    <mat-card *ngIf="errorMessage" class="error">{{ errorMessage }}</mat-card>
+  </mat-card>
+  </div>
