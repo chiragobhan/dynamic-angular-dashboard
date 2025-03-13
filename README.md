@@ -1,6 +1,7 @@
 # Dynamic Angular Dashboard
 
-A responsive **Dynamic Angular Dashboard** with user authentication, API integration, state management using Angular Signals, and performance optimizations.
+A responsive **Dynamic Angular Dashboard** with user authentication, API integration, state management using Angular Signals, and performance optimizations.  
+Live Demo - [Angular Dashboard](https://chiragobhan.github.io/dynamic-angular-dashboard/).
 
 ---
 

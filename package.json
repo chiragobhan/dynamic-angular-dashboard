@@ -1,5 +1,5 @@
 {
-  "name": "pillway-dashboard",
+  "name": "dynamic-angular-dashboard",
   "version": "0.0.0",
   "scripts": {
     "ng": "ng",
@@ -7,7 +7,7 @@
     "watch": "ng build --watch --configuration development",
     "test": "ng test",
     "build": "ng build --configuration production --base-href /dynamic-angular-dashboard/",
-    "deploy": "npx angular-cli-ghpages --dir=dist/dynamic-angular-dashboard --no-silent"
+    "deploy": "npx angular-cli-ghpages --dir=dist/dynamic-angular-dashboard/browser --no-silent"
   },
   "private": true,
   "dependencies": {
